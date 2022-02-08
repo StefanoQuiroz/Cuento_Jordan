@@ -1,0 +1,479 @@
+.creditos .imagen_portada,
+#final_cuento .creditos .imagen_portada{
+/*    display: grid;*/
+   background-image: url("../img/jordan/01.jpg");
+
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+
+/*    background-color: #fff;*/
+}
+
+.title h2{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+#escena_00 .fondo{ 
+    background-image: url("../img/jordan/esc_0_fondo.jpg");
+/*    background-image: url("../img/FOLDER/testpos0.jpg");*/
+}
+#escena_00 .tiburon{
+    width: 1113px;
+    height: 400px;
+    position: absolute;
+    z-index: 6;
+    top: 13%;
+    left: 21%;
+    background-position: -500% 0%;
+    background-size: 500%;
+    background-repeat: repeat-x;
+}
+.spriteA{ 
+    background-image: url("../img/jordan/sprite/shake.png");
+/*    background-color: rgba(0,0,0,1);*/
+/*    background-color: black;*/
+    background-repeat: no-repeat;
+}
+
+#escena_01 .jordan {
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    z-index: 6;
+    top: 6%;
+    left: 36%;
+    background-position: -200% 0%;
+    background-size: 200%;
+    background-repeat: repeat-x;
+}
+.spriteJ{ 
+    background-image: url("../img/jordan/sprite/s2-nino.png");
+/*    background-color: rgba(0,0,0,1);*/
+/*    background-color: black;*/
+    background-repeat: no-repeat;
+}
+
+#escena_01 .rata {
+    width: 1300px;
+    height: 400px;
+    position: absolute;
+    z-index: 6;
+    top: 76%;
+    left: 26%;
+    background-position: -800% 0%;
+    background-size: 800%;
+    background-repeat: repeat-x;
+}
+.spriteR{ 
+    background-image: url("../img/jordan/sprite/s2-rata.png");
+/*    background-color: rgba(0,0,0,1);*/
+/*    background-color: black;*/
+    background-repeat: no-repeat;
+}
+
+#escena_02 .gatos01 {
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    z-index: 6;
+    top: 26%;
+    left: 5%;
+    background-position: -200% 0%;
+    background-size: 200%;
+    background-repeat: repeat-x;
+}
+.spriteGa01{ 
+    background-image: url("../img/jordan/sprite/s3-gatito-1.png");
+/*    background-color: rgba(0,0,0,1);*/
+/*    background-color: black;*/
+    background-repeat: no-repeat;
+}
+
+#escena_02 .gatos02 {
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    z-index: 6;
+    top: 32%;
+    left: 10%;
+    background-position: -200% 0%;
+    background-size: 200%;
+    background-repeat: repeat-x;
+}
+.spriteGa02{ 
+    background-image: url("../img/jordan/sprite/s3-gatito-2.png");
+/*    background-color: rgba(0,0,0,1);*/
+/*    background-color: black;*/
+    background-repeat: no-repeat;
+}
+#escena_03 .malabares {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    z-index: 4;
+    top: 18%;
+    left: 44%;
+    background-position: -400% 0%;
+    background-size: 400%;
+    background-repeat: repeat-x;
+}
+.spriteM{ 
+    background-image: url("../img/jordan/sprite/s4-vendedor.png");
+/*    background-color: rgba(0,0,0,1);*/
+/*    background-color: black;*/
+    background-repeat: no-repeat;
+}
+#escena_04 .palomap1 {
+    width: 115px;
+    height: 115px;
+    position: absolute;
+    z-index: 4;
+    top: 57%;
+    left: 32%;
+    background-position: -200% 0%;
+    background-size: 200%;
+    background-repeat: repeat-x;
+}
+.spritePa1{ 
+    background-image: url("../img/jordan/sprite/s5-paloma_1.png");
+/*    background-color: rgba(0,0,0,1);*/
+/*    background-color: black;*/
+    background-repeat: no-repeat;
+}
+#escena_04 .palomap2 {
+    width: 103px;
+    height: 103px;
+    position: absolute;
+    z-index: 4;
+    top: 16%;
+    left: 46%;
+    background-position: -200% 0%;
+    background-size: 200%;
+    background-repeat: repeat-x;
+}
+.spritePa2{ 
+    background-image: url("../img/jordan/sprite/s5-paloma_2.png");
+/*    background-color: rgba(0,0,0,1);*/
+/*    background-color: black;*/
+    background-repeat: no-repeat;
+}
+
+#escena_08 .tiburonn {
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    z-index: 6;
+    top: 18%;
+    left: 21%;
+    background-position: -500% 0%;
+    background-size: 500%;
+    background-repeat: repeat-x;
+}
+.spriteTi{ 
+    background-image: url("../img/jordan/sprite/s6-pensamiento.png");
+/*    background-color: rgba(0,0,0,1);*/
+/*    background-color: black;*/
+    background-repeat: no-repeat;
+}
+#escena_01 .fondo{ 
+    background-image: url("../img/jordan/esc_1_fondo.jpg");
+/*    background-image: url("../img/FOLDER/testpos1.jpg");*/
+}
+
+#escena_02 .fondo{ 
+    background-image: url("../img/jordan/esc_2_fondo.jpg");
+/*    background-image: url("../img/FOLDER/testpos2.jpg");*/
+}
+
+#escena_03 .fondo{ 
+    background-image: url("../img/jordan/esc_3_fondo_01.jpg");
+/*    background-image: url("../img/FOLDER/testpos3.jpg");*/
+}
+#escena_03 .fondo #mercado_03{
+    width: 100%;
+    position: absolute;
+    z-index: 6;
+    top: 0%;
+    pointer-events: none;
+    left: 0%;}
+
+#escena_04 .fondo{ 
+    background-image: url("../img/jordan/esc_4_fondo.jpg");
+/*    background-image: url("../img/FOLDER/testpos4.jpg");*/
+}
+
+#escena_05 .fondo{ 
+    background-image: url("../img/jordan/esc_5_fondo.jpg");
+/*    background-image: url("../img/FOLDER/testpos5.jpg");*/
+}
+
+#escena_05 .loro{
+    width: 531px;
+    height: 401px;
+    position: absolute;
+    z-index: 6;
+    top: 52%;
+    left: 44%;
+    background-position: -800% 0%;
+    background-size: 800%;
+    background-repeat: repeat-x;
+}
+
+.spriteL{ 
+    background-image: url("../img/jordan/sprite/s9-loro.png");
+/*    background-color: rgba(0,0,0,1);*/
+/*    background-color: black;*/
+    background-repeat: no-repeat;
+}
+
+#escena_06 .fondo{           
+    background-image: url("../img/jordan/esc_6_fondo.jpg");
+/*    background-image: url("../img/FOLDER/testpos6.jpg");*/
+}
+
+#escena_06 .gato{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    z-index: 6;
+    top: 32%;
+    left: 13%;
+    background-position: -400% 0%;
+    background-size: 400%;
+    background-repeat: repeat-x;
+}
+
+.spriteG{ 
+    background-image: url("../img/jordan/sprite/s10-sonrisa.png");
+/*    background-color: rgba(0,0,0,1);*/
+/*    background-color: black;*/
+    background-repeat: no-repeat;
+}
+
+#escena_07 .fondo{ 
+    background-image: url("../img/jordan/esc_7_fondo.jpg");
+/*    background-image: url("../img/FOLDER/testpos7.jpg");*/
+}
+
+#escena_07 .paloma{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    z-index: 4;
+    top: -1%;
+    left: 51%;
+    background-position: -300% 0%;
+    background-size: 300%;
+    background-repeat: repeat-x;
+
+}
+
+.spriteP{ 
+    background-image: url("../img/jordan/sprite/s11-pajaro.png");
+/*    background-color: rgba(0,0,0,1);*/
+/*    background-color: black;*/
+    background-repeat: no-repeat;
+}
+
+
+#escena_08 .fondo{ 
+    background-image: url("../img/jordan/esc_8_fondo.jpg");
+/*    background-image: url("../img/FOLDER/testpos9.jpg");*/
+}
+
+#escena_09 .fondo{ 
+    background-image: url("../img/jordan/esc_9_fondo.jpg");
+/*    background-image: url("../img/FOLDER/testpos9.jpg");*/
+}
+
+#escena_09 .bus{
+    width: 33%;
+    height: 40%;
+    position: absolute;
+    z-index: 4;
+    top: 40%;
+    left: -3%;
+    background-position: -400% 0%;
+    background-size: 400%;
+    background-repeat: repeat-x;
+
+}
+
+.spriteB{ 
+    background-image: url("../img/jordan/sprite/s7-bus.png");
+/*    background-color: rgba(0,0,0,1);*/
+/*    background-color: black;*/
+    background-repeat: no-repeat;
+}
+#escena_09 .fondo #bus_haitianos{
+    width: 33%;
+    position: absolute;
+    z-index: 7;
+    top: 40%;
+    pointer-events: none;
+    left: 17%;
+}
+
+
+#escena_10 .fondo{ 
+    background-image: url("../img/jordan/esc_10_fondo.jpg");
+/*    background-image: url("../img/FOLDER/testpos9.jpg");*/
+}
+
+#escena_10 .moneda{
+    width: 183px;
+    height: 477px;
+    position: absolute;
+    z-index: 6;
+    top: 65%;
+    left: 64%;
+    background-position: -500% 0%;
+    background-size: 500%;
+    background-repeat: repeat-x;
+}
+
+.spriteQ{
+    background-image: url("../img/jordan/sprite/s8-moneda.png");
+}
+
+#escena_11 .fondo{ 
+    background-image: url("../img/jordan/esc_11_fondo.jpg");
+/*    background-image: url("../img/FOLDER/testpos9.jpg");*/
+}
+
+#escena_11 .pez1{
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    z-index: 7;
+    top: 13%;
+    left: 0%;
+    background-position: -500% 0%;
+    background-size: 500%;
+    background-repeat: repeat-x;
+}
+
+.spritep1{
+    background-image: url("../img/jordan/sprite/s12-pez-01.png");
+}
+
+#escena_11 .pez2{
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    z-index: 6;
+    top: 40%;
+    left: 0%;
+    background-position: -600% 0%;
+    background-size: 600%;
+    background-repeat: repeat-x;
+}
+
+.spritep2{
+    background-image: url("../img/jordan/sprite/s12-pez-02.png");
+}
+
+#escena_11 .pez3{
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    z-index: 6;
+    top: 30%;
+    left: 0%;
+    background-position: -700% 0%;
+    background-size: 700%;
+    background-repeat: repeat-x;
+}
+
+.spritep3{
+    background-image: url("../img/jordan/sprite/s12-pez-03.png");
+}
+
+#escena_11 .pez4{
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    z-index: 6;
+    top: 70%;
+    left: 0%;
+    background-position: -600% 0%;
+    background-size: 600%;
+    background-repeat: repeat-x;
+}
+
+.spritep4{
+    background-image: url("../img/jordan/sprite/s12-pez-04.png");
+}
+
+#escena_11 .pez5{
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    z-index: 6;
+    top: 55%;
+    left: 0%;
+    background-position: -500% 0%;
+    background-size: 500%;
+    background-repeat: repeat-x;
+}
+
+.spritep5{
+    background-image: url("../img/jordan/sprite/s12-pez-05.png");
+}
+
+#escena_11 .pez6{
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    z-index: 6;
+    top: 55%;
+    left: 0%;
+    background-position: -600% 0%;
+    background-size: 600%;
+    background-repeat: repeat-x;
+}
+
+.spritep6{
+    background-image: url("../img/jordan/sprite/s12-pez-06.png");
+}
+
+
+
+
+#escena_00 .btn_interact{ top: 230px; left: 1350px; }
+#escena_01 .btn_interact{ top: 470px; left: 850px; }
+#escena_02 .btn_interact {
+    top: 500px;
+    left: 200px;
+}
+#escena_03 .btn_interact {top: 500px; left: 1000px;}
+
+#escena_04 .btn_interact{ top: 262px; left: 800px; }
+
+#escena_05 .btn_interact{ top: 60%; left: 59%;}
+
+#escena_06 .btn_interact{ top: 506px; left: 496px;}
+
+#escena_07 .btn_interact{ top: 43%; left: 74%;}
+
+#escena_08 .btn_interact { top: 700px; left: 936px;}
+
+#escena_09 .btn_interact{ top: 50%; left: 50%;}
+
+#escena_10 .btn_interact{ top: 70%; left: 60%;}
+
+#escena_11 .btn_interact{ top: 40%; left: 50%;}
+
+
+
+
+
+
+
+
+
+
+
