@@ -496,6 +496,8 @@ let ANIM = {
         catch (err) {}
     },
 
+    
+
     activaJordanOpciones:() => {
         $('#overlayDark').css({'display':'block'});
         $('#jordanOpciones').css({'display':'block'});
@@ -509,6 +511,14 @@ let ANIM = {
 
     init: () => {
         ANIM.creapartes();
+
+        $('#jordanButtonRed').click(function(){
+            Player.setScene(5, "Escena 5");
+        });
+    
+        $('#jordanButtonBlue').click(function(){
+            Player.setScene(8, "Escena 9");
+        });
 
        
           
