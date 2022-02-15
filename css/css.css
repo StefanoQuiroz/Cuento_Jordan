@@ -297,87 +297,7 @@ a{
     z-index: 999;
 }
 
-/*CSS JORDAN*/
-.jordanOpciones{
-    position: absolute;
-    top: calc(30% - 41px);
-    left: 50%;
-    z-index: 3;
-    margin-left: -465px;
-}
 
-.jordanRow{
-    display: flex;
-}
-
-.jordanOpciones img{
-    width: 100%;
-    border-radius: 5px 5px 0px 0px;
-}
-
-.jordanCol{
-    width: 450px;
-    cursor: pointer;
-    margin: 0px 10px 0px 10px;
-}
-
-.jordanText{
-    font-weight: 700;
-    color: #FFFFFF;
-    display: flex;
-    margin: 10px 0px 10px 0px;
-    justify-content: center;
-}
-
-.jordanTextTitle{
-    font-weight: 700;
-    font-size: 20px;
-    color: #FFFFFF;
-    display: flex;
-    margin: 10px 0px 10px 0px;
-    justify-content: center;
-}
-
-#jordanOpciones{
-    display: none;
-}
-
-#overlayDark{
-    display: none;
-}
-
-.overlayDark{
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: 1;
-}
-
-.jordanButton{
-    text-align: center;
-    margin-top: -4px;
-    border-radius: 0px 0px 5px 5px;
-    background-color: #e53733;
-    padding: 10px 0px 10px 0px;
-}
-
-.jordanCol img:hover + .jordanButton{
-    background-color: #d6201b;
-}
-
-.jordanCol img:hover + .jordanButton2{
-    background-color: #005797;
-}
-
-.jordanButton2{
-    text-align: center;
-    margin-top: -4px;
-    border-radius: 0px 0px 5px 5px;
-    background-color: #006dbd;
-    padding: 10px 0px 10px 0px;
-}
-/*FIN CSS JORDAN*/
 
 .btn_adelante{
     width: 82px;
@@ -1804,7 +1724,7 @@ input:checked + .slider:before {
     display: none;
 }
 #escenario *{
-    position: absolute;
+    position: none;
 }
 #escenario .escena,
 #escenario .interact{
