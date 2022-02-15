@@ -1724,7 +1724,7 @@ input:checked + .slider:before {
     display: none;
 }
 #escenario *{
-    position: none;
+    position: absolute;
 }
 #escenario .escena,
 #escenario .interact{

@@ -497,9 +497,10 @@ let ANIM = {
     },
 
     
+    
 
     activaJordanOpciones:() => {
-        //$('#overlayDark').css({'display':'block'});
+        $('#overlayDark').css({'display':'block'});
         $('#jordanOpciones').css({'display':'block'});
         TweenMax.fromTo('#jordanOpciones',1, {alpha:0}, {alpha:1});
     },
@@ -512,6 +513,8 @@ let ANIM = {
     init: () => {
         ANIM.creapartes();
 
+        
+        //$('#escenario #escena_04').css({'display':'none'});
         $('#jordanButtonRed').click(function(){
             Player.setScene(5, "Escena 5");
         });
