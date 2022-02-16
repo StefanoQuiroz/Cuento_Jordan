@@ -558,7 +558,7 @@ let ANIM = {
         /*LLAMADAS Y FUNCIONES ESCENA 0*/ //<-----------------------------------------------------
         ANIM.main_tl.addCallback(function () {
             Player.hideOthersBut('escena_00');
-            Player.desActivaJordanOpciones();
+            //Player.desActivaJordanOpciones();
         }, "escena_0"); // esto quiere decir que cuando main_tl llegue a la label "escena_0" va a llamar a Player.hideOthersBut('escena_00');
      
         ANIM.main_tl.addCallback(function () {
@@ -585,7 +585,7 @@ let ANIM = {
         ANIM.main_tl.addCallback(function () {
             Player.hideOthersBut('escena_01');
             //Player.desActivaJordanOpciones();
-            ANIM.desActivaJordanOpciones();
+            //ANIM.desActivaJordanOpciones();
         }, "escena_1");
 
         ANIM.main_tl.addCallback(function () {
@@ -601,7 +601,7 @@ let ANIM = {
         ANIM.main_tl.addCallback(function () {
             Player.hideOthersBut('escena_02');
             //Player.desActivaJordanOpciones();
-            ANIM.desActivaJordanOpciones();
+            //ANIM.desActivaJordanOpciones();
         }, "escena_2");
         
         ANIM.main_tl.addCallback(function () {
@@ -617,7 +617,7 @@ let ANIM = {
         ANIM.main_tl.addCallback(function () {
             Player.hideOthersBut('escena_03');
             //Player.desActivaJordanOpciones();
-            ANIM.desActivaJordanOpciones();
+            //ANIM.desActivaJordanOpciones();
         }, "escena_3");
       
         ANIM.main_tl.addCallback(function () {
@@ -656,7 +656,7 @@ let ANIM = {
         ANIM.main_tl.addCallback(function () {
             Player.hideOthersBut('escena_05');
             //Player.desActivaJordanOpciones();
-            ANIM.desActivaJordanOpciones();
+            //ANIM.desActivaJordanOpciones();
         }, "escena_5");
         
         ANIM.main_tl.addCallback(function () {
@@ -675,7 +675,7 @@ let ANIM = {
         ANIM.main_tl.addCallback(function () {
             Player.hideOthersBut('escena_06');
             //Player.desActivaJordanOpciones();
-            ANIM.desActivaJordanOpciones();
+            //ANIM.desActivaJordanOpciones();
         }, "escena_6");
 
         ANIM.main_tl.addCallback(function () {
@@ -692,7 +692,7 @@ let ANIM = {
         ANIM.main_tl.addCallback(function () {
             Player.hideOthersBut('escena_07');
             //Player.desActivaJordanOpciones();
-            ANIM.desActivaJordanOpciones();
+            //ANIM.desActivaJordanOpciones();
         }, "escena_7");
         
         ANIM.main_tl.addCallback(function () {
@@ -710,7 +710,7 @@ let ANIM = {
         ANIM.main_tl.addCallback(function () {
             Player.hideOthersBut('escena_08');
             //Player.desActivaJordanOpciones();
-            ANIM.desActivaJordanOpciones();
+            //ANIM.desActivaJordanOpciones();
         }, "escena_8");
         
         ANIM.main_tl.addCallback(function () {
@@ -727,7 +727,7 @@ let ANIM = {
         ANIM.main_tl.addCallback(function () {
             Player.hideOthersBut('escena_09');
             //Player.desActivaJordanOpciones();
-            ANIM.desActivaJordanOpciones();
+            //ANIM.desActivaJordanOpciones();
         }, "escena_9");
         
         ANIM.main_tl.addCallback(function () {
@@ -744,7 +744,7 @@ let ANIM = {
         ANIM.main_tl.addCallback(function () {
             Player.hideOthersBut('escena_10');
             //Player.desActivaJordanOpciones();
-            ANIM.desActivaJordanOpciones();
+            //ANIM.desActivaJordanOpciones();
         }, "escena_10");
         
         ANIM.main_tl.addCallback(function () {
@@ -764,7 +764,7 @@ let ANIM = {
         ANIM.main_tl.addCallback(function () {
             Player.hideOthersBut('escena_11');
             //Player.desActivaJordanOpciones();
-            ANIM.desActivaJordanOpciones();
+            //ANIM.desActivaJordanOpciones();
         }, "escena_11");
         
         ANIM.main_tl.addCallback(function () {

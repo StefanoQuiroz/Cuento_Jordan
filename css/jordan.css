@@ -162,6 +162,106 @@
     background-repeat: no-repeat;
 }
 
+/* Agregado */
+/* #escenario #escena_04,
+#escenario #escena_04 .jordanOpciones, */
+#escenario #escena_04 .jordanOpciones .jordanRow,
+#escenario #escena_04 .jordanOpciones .jordanRow .jordanCol,
+#escenario #escena_04 .jordanOpciones .jordanRow .jordanCol .jordanButton,
+#escenario #escena_04 .jordanOpciones .jordanRow .jordanCol .jordanButton .jordanText,
+#escenario #escena_04 .jordanOpciones .jordanRow .jordanCol .jordanButton2 .jordanText
+{
+    position:relative;
+}
+#escenario #escena_04 .jordanOpciones .jordanTextTitle{
+    position: relative;
+}
+/*CSS JORDAN*/
+.jordanOpciones{
+    position: absolute;
+    top: calc(30% - 41px);
+    left: 50%;
+    z-index: 3;
+    margin-left: -465px;
+}
+
+.jordanRow{
+    display: flex;
+}
+
+.jordanOpciones img{
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.jordanCol{
+    width: 450px;
+    cursor: pointer;
+    margin: 0px 10px 0px 10px;
+}
+
+.jordanText{
+    font-weight: 700;
+    color: #FFFFFF;
+    display: flex;
+    margin: 10px 0px 10px 0px;
+    justify-content: center;
+}
+
+.jordanTextTitle{
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    display: flex;
+    margin: 10px 0px 10px 0px;
+    justify-content: center;
+}
+
+#jordanOpciones{
+    display: none; /* none => block */
+}
+
+#overlayDark{
+    display: none; /* none = display  block sucede en todas las escenas*/
+}
+
+.overlayDark{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    /* display: block; */
+
+}
+
+.jordanButton{
+    text-align: center;
+    margin-top: -4px;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #e53733;
+    padding: 10px 0px 10px 0px;
+}
+
+.jordanCol img:hover + .jordanButton{
+    background-color: #d6201b;
+}
+
+.jordanCol img:hover + .jordanButton2{
+    background-color: #005797;
+}
+
+.jordanButton2{
+    width: 100%;
+    text-align: center;
+    margin-top: -4px;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #006dbd;
+    padding: 10px 0px 10px 0px;
+}
+/*FIN CSS JORDAN*/
+
 #escena_08 .tiburonn {
     width: 500px;
     height: 400px;
@@ -199,28 +299,13 @@
     z-index: 6;
     top: 0%;
     pointer-events: none;
-    left: 0%;}
-
+    left: 0%;
+}
+/* Agregado */
 /* Prueba borrador */
 #escenario #escena_04 .fondo{
     position:none;
 }
-/* #escenario #escena_04,
-#escenario #escena_04 .jordanOpciones, */
-#escenario #escena_04 .jordanOpciones .jordanRow,
-#escenario #escena_04 .jordanOpciones .jordanRow .jordanCol,
-#escenario #escena_04 .jordanOpciones .jordanRow .jordanCol .jordanButton,
-#escenario #escena_04 .jordanOpciones .jordanRow .jordanCol .jordanButton .jordanText,
-#escenario #escena_04 .jordanOpciones .jordanRow .jordanCol .jordanButton2 .jordanText
-{
-    position:relative;
-}
-#escenario #escena_04 .jordanOpciones .jordanTextTitle{
-    position: relative;
-}
-/* #jordanTextTitle2{
-    top: 200px;
-} */
 
 #escena_04 .fondo{ 
     background-image: url("../img/jordan/esc_4_fondo.jpg");
@@ -461,93 +546,6 @@
 .spritep6{
     background-image: url("../img/jordan/sprite/s12-pez-06.png");
 }
-
-/*CSS JORDAN*/
-.jordanOpciones{
-    position: absolute;
-    top: calc(30% - 41px);
-    left: 50%;
-    z-index: 3;
-    margin-left: -465px;
-}
-
-.jordanRow{
-    display: flex;
-}
-
-.jordanOpciones img{
-    width: 100%;
-    border-radius: 5px 5px 0px 0px;
-}
-
-.jordanCol{
-    width: 450px;
-    cursor: pointer;
-    margin: 0px 10px 0px 10px;
-}
-
-.jordanText{
-    font-weight: 700;
-    color: #FFFFFF;
-    display: flex;
-    margin: 10px 0px 10px 0px;
-    justify-content: center;
-}
-
-.jordanTextTitle{
-    align-items: center;
-    font-weight: 700;
-    font-size: 20px;
-    color: #FFFFFF;
-    display: flex;
-    margin: 10px 0px 10px 0px;
-    justify-content: center;
-}
-
-#jordanOpciones{
-    display: none; /* none => block */
-}
-
-#overlayDark{
-    display: none; /* none = display  block sucede en todas las escenas*/
-}
-
-.overlayDark{
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: 1;
-    /* display: block; */
-
-}
-
-.jordanButton{
-    text-align: center;
-    margin-top: -4px;
-    border-radius: 0px 0px 5px 5px;
-    background-color: #e53733;
-    padding: 10px 0px 10px 0px;
-}
-
-.jordanCol img:hover + .jordanButton{
-    background-color: #d6201b;
-}
-
-.jordanCol img:hover + .jordanButton2{
-    background-color: #005797;
-}
-
-.jordanButton2{
-    width: 100%;
-    text-align: center;
-    margin-top: -4px;
-    border-radius: 0px 0px 5px 5px;
-    background-color: #006dbd;
-    padding: 10px 0px 10px 0px;
-}
-/*FIN CSS JORDAN*/
-
 
 #escena_00 .btn_interact{ top: 230px; left: 1350px; }
 #escena_01 .btn_interact{ top: 470px; left: 850px; }
